@@ -1,0 +1,92 @@
+.home {
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.search-bar{
+    width: 400px;
+    line-height: 24px;
+    padding: 10px 30px;
+    border: 1px solid #dfe1ef;
+    border-radius: 24px 
+}
+.search-bar-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-bar{
+    margin-top: 1em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 60rem;
+}
+.right-bar .right-bar-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-bar .right-bar-div a:hover{
+    color:navy;
+    text-decoration: underline;
+}
+.right-bar-div img:hover{
+    box-shadow:black 1px 0px 6px 0px;
+    cursor: pointer;
+
+}
+
+.right-bar-div a{
+    text-decoration: none;
+    color: black;
+    margin-left: 2em;
+    font-size: 16px;
+}
+.right-bar-div i{
+    margin-left: 2em;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+}
+.profile{
+    border-radius: 50%;
+    height: 50px;
+    margin-left: 2em;
+}
+.profile img{
+    border-radius: 50%;
+    height: 50px;
+}
+.google-name{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn{
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn1{
+    margin-right: 5px;
+}
+.btn2{
+    margin-left: 5px;
+}
+.btn1, .btn2 {
+    border: none;
+    background: #dfe1e5;
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn button:hover{
+    box-shadow:black 1px 0px 6px 0px;
+}
